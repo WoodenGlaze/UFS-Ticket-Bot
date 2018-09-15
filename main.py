@@ -55,7 +55,7 @@ if True == True:
 	shards = credentials['shards']
 
 desc = """Basic bot to open support tickets for the Unturned server."""
-bot = Bot(command_prefix=commands.when_mentioned_or('ticket)', 'problem)'), description=desc)
+bot = Bot(command_prefix=commands.when_mentioned_or('ticket)', 'problem)'), shard_count=shards, description=desc)
 bot.uptime = datetime.now()
 bot.version = "master 0.1α"
 bot.realuptime = bot.uptime - datetime.now()
