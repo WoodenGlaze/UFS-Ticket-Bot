@@ -12,7 +12,7 @@ def post(db_file, memid, memname, message):
         print(e)
     finally:
         conn.close()
-def list_open(db_file, open_value):
+def list_open(db_file):
     """Lists open tickets and prints them to the channel"""
     try:
         conn = sqlite3.connect(db_file)
@@ -30,7 +30,7 @@ def list_open(db_file, open_value):
         print(e)
     finally:
         conn.close()
-def list_picked(db_file, open_value):
+def list_picked(db_file):
     """Lists open tickets and prints them to the channel"""
     try:
         conn = sqlite3.connect(db_file)
@@ -48,7 +48,7 @@ def list_picked(db_file, open_value):
         print(e)
     finally:
         conn.close()
-def list_closed(db_file, open_value):
+def list_closed(db_file):
     """Lists open tickets and prints them to the channel"""
     try:
         conn = sqlite3.connect(db_file)
