@@ -105,7 +105,6 @@ async def about():
 	result.append('- Uptime: {}'.format(bot.realuptime))
 	result.append('- Servers: {}'.format(len(bot.servers)))
 	#result.append('- Commands Run: {}'.format(sum(bot.commands_used.values())))
-
 	# statistics
 	total_members = sum(len(s.members) for s in bot.servers)
 	total_online  = sum(1 for m in bot.get_all_members() if m.status != discord.Status.offline)
