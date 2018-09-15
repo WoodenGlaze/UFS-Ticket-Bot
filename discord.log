@@ -198,3 +198,263 @@
 2018-09-16 01:47:06,479:DEBUG:discord.client: Dispatching event socket_raw_receive
 2018-09-16 01:47:06,479:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
 2018-09-16 01:47:06,479:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:47:47,624:DEBUG:discord.gateway: Keeping websocket alive with sequence 29
+2018-09-16 01:47:47,734:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:47:47,734:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:47:47,734:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:48:17,526:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:48:17,526:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 30, 'op': 0, 'd': {'user_id': '138791951238430720', 'timestamp': 1537055288, 'member': {'user': {'username': 'Strawburst Kimura', 'id': '138791951238430720', 'discriminator': '8012', 'avatar': '502ecbcf17dcd44ace1853ea975ef57c'}, 'roles': ['480476163672899584', '481638079451365377'], 'nick': 'Queen Strawburst', 'mute': False, 'joined_at': '2018-07-31T05:51:18.584000+00:00', 'deaf': False}, 'channel_id': '479112632071356417', 'guild_id': '473729350257082368'}}
+2018-09-16 01:48:17,526:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:48:17,526:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:48:18,073:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:48:18,074:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 31, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-09-15T23:48:08.918000+00:00', 'pinned': False, 'nonce': '490670188404932608', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['480476163672899584', '481638079451365377'], 'nick': 'Queen Strawburst', 'mute': False, 'joined_at': '2018-07-31T05:51:18.584000+00:00', 'deaf': False}, 'id': '490670187528585236', 'embeds': [], 'edited_timestamp': None, 'content': 'lag', 'channel_id': '479112632071356417', 'author': {'username': 'Strawburst Kimura', 'id': '138791951238430720', 'discriminator': '8012', 'avatar': '502ecbcf17dcd44ace1853ea975ef57c'}, 'attachments': [], 'guild_id': '473729350257082368'}}
+2018-09-16 01:48:18,074:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:48:18,074:DEBUG:discord.client: Dispatching event message
+2018-09-16 01:48:28,878:DEBUG:discord.gateway: Keeping websocket alive with sequence 31
+2018-09-16 01:48:28,985:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:48:28,986:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:48:28,986:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:48:29,111:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:48:29,112:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 32, 'op': 0, 'd': {'user': {'id': '178849076845084672'}, 'status': 'online', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': {'type': 0, 'timestamps': {'start': 1537055298524}, 'session_id': '706c43c633f2369b0b0a29bc5da45333', 'name': 'War Thunder', 'id': 'f18dff0ccda590b2', 'created_at': 1537055299911}, 'activities': [{'type': 0, 'timestamps': {'start': 1537055298524}, 'session_id': '706c43c633f2369b0b0a29bc5da45333', 'name': 'War Thunder', 'id': 'f18dff0ccda590b2', 'created_at': 1537055299911}]}}
+2018-09-16 01:48:29,112:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:48:29,112:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:48:32,112:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:48:32,112:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 33, 'op': 0, 'd': {'user_id': '138791951238430720', 'timestamp': 1537055302, 'member': {'user': {'username': 'Strawburst Kimura', 'id': '138791951238430720', 'discriminator': '8012', 'avatar': '502ecbcf17dcd44ace1853ea975ef57c'}, 'roles': ['480476163672899584', '481638079451365377'], 'nick': 'Queen Strawburst', 'mute': False, 'joined_at': '2018-07-31T05:51:18.584000+00:00', 'deaf': False}, 'channel_id': '473729866592681995', 'guild_id': '473729350257082368'}}
+2018-09-16 01:48:32,112:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:48:32,112:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:48:33,040:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:48:33,041:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 34, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-09-15T23:48:23.888000+00:00', 'pinned': False, 'nonce': '490670251223023616', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['480476163672899584', '481638079451365377'], 'nick': 'Queen Strawburst', 'mute': False, 'joined_at': '2018-07-31T05:51:18.584000+00:00', 'deaf': False}, 'id': '490670250317053952', 'embeds': [], 'edited_timestamp': None, 'content': 'yesss\\', 'channel_id': '473729866592681995', 'author': {'username': 'Strawburst Kimura', 'id': '138791951238430720', 'discriminator': '8012', 'avatar': '502ecbcf17dcd44ace1853ea975ef57c'}, 'attachments': [], 'guild_id': '473729350257082368'}}
+2018-09-16 01:48:33,041:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:48:33,041:DEBUG:discord.client: Dispatching event message
+2018-09-16 01:48:35,202:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:48:35,202:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_UPDATE', 's': 35, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-09-15T23:48:23.888000+00:00', 'pinned': False, 'nonce': None, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '490670250317053952', 'embeds': [], 'edited_timestamp': '2018-09-15T23:48:26.038080+00:00', 'content': 'yesss', 'channel_id': '473729866592681995', 'author': {'username': 'Strawburst Kimura', 'id': '138791951238430720', 'discriminator': '8012', 'avatar': '502ecbcf17dcd44ace1853ea975ef57c'}, 'attachments': [], 'guild_id': '473729350257082368'}}
+2018-09-16 01:48:35,203:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:48:35,203:DEBUG:discord.client: Dispatching event message_edit
+2018-09-16 01:49:10,130:DEBUG:discord.gateway: Keeping websocket alive with sequence 35
+2018-09-16 01:49:10,238:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:10,239:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:49:10,239:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:10,851:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:10,851:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 36, 'op': 0, 'd': {'user_id': '106423924614545408', 'timestamp': 1537055341, 'member': {'user': {'username': 'Miss Glazeee~', 'id': '106423924614545408', 'discriminator': '7724', 'avatar': '981bb2081df023b114fe5be833e99587'}, 'roles': ['480476163672899584', '481637861620187147'], 'nick': 'Queen Glazeee Toebean', 'mute': False, 'joined_at': '2018-08-15T18:48:34.497444+00:00', 'deaf': False}, 'channel_id': '473729866592681995', 'guild_id': '473729350257082368'}}
+2018-09-16 01:49:10,851:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:10,851:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:49:11,947:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:11,948:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 37, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-09-15T23:49:02.665000+00:00', 'pinned': False, 'nonce': '490670450624430080', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['480476163672899584', '481637861620187147'], 'nick': 'Queen Glazeee Toebean', 'mute': False, 'joined_at': '2018-08-15T18:48:34.497444+00:00', 'deaf': False}, 'id': '490670412959842324', 'embeds': [], 'edited_timestamp': None, 'content': 'yayyyy', 'channel_id': '473729866592681995', 'author': {'username': 'Miss Glazeee~', 'id': '106423924614545408', 'discriminator': '7724', 'avatar': '981bb2081df023b114fe5be833e99587'}, 'attachments': [], 'guild_id': '473729350257082368'}}
+2018-09-16 01:49:11,948:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:11,948:DEBUG:discord.client: Dispatching event message
+2018-09-16 01:49:14,950:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:14,951:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 38, 'op': 0, 'd': {'user_id': '106423924614545408', 'timestamp': 1537055345, 'member': {'user': {'username': 'Miss Glazeee~', 'id': '106423924614545408', 'discriminator': '7724', 'avatar': '981bb2081df023b114fe5be833e99587'}, 'roles': ['480476163672899584', '481637861620187147'], 'nick': 'Queen Glazeee Toebean', 'mute': False, 'joined_at': '2018-08-15T18:48:34.497444+00:00', 'deaf': False}, 'channel_id': '473729866592681995', 'guild_id': '473729350257082368'}}
+2018-09-16 01:49:14,951:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:14,951:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:49:19,501:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:19,501:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 39, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-09-15T23:49:10.345000+00:00', 'pinned': False, 'nonce': '490670482849267712', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['480476163672899584', '481637861620187147'], 'nick': 'Queen Glazeee Toebean', 'mute': False, 'joined_at': '2018-08-15T18:48:34.497444+00:00', 'deaf': False}, 'id': '490670445171965963', 'embeds': [], 'edited_timestamp': None, 'content': "Finally I'm not useless", 'channel_id': '473729866592681995', 'author': {'username': 'Miss Glazeee~', 'id': '106423924614545408', 'discriminator': '7724', 'avatar': '981bb2081df023b114fe5be833e99587'}, 'attachments': [], 'guild_id': '473729350257082368'}}
+2018-09-16 01:49:19,501:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:19,502:DEBUG:discord.client: Dispatching event message
+2018-09-16 01:49:24,112:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:24,112:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 40, 'op': 0, 'd': {'user': {'username': 'Addison', 'id': '254343278068105216', 'discriminator': '4514', 'avatar': '4bcce271ee3c9759717449606fc1185b'}, 'status': 'online', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-16 01:49:24,113:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:24,113:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:49:34,981:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:34,981:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 41, 'op': 0, 'd': {'user_id': '341008844660670466', 'timestamp': 1537055365, 'member': {'user': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:49:34,981:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:34,981:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:49:36,735:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:36,735:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 42, 'op': 0, 'd': {'user': {'id': '429017695501942784'}, 'status': 'online', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-16 01:49:36,735:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:36,735:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:49:42,323:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:42,323:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 43, 'op': 0, 'd': {'user_id': '341008844660670466', 'timestamp': 1537055373, 'member': {'user': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:49:42,323:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:42,324:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:49:46,100:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:46,100:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 44, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-09-15T23:49:36.864000+00:00', 'pinned': False, 'nonce': '490670548318158848', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'id': '490670556400713739', 'embeds': [], 'edited_timestamp': None, 'content': 'Are players able to tp to locations?', 'channel_id': '480476525087424512', 'author': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'attachments': [], 'guild_id': '473729350257082368'}}
+2018-09-16 01:49:46,100:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:46,101:DEBUG:discord.client: Dispatching event message
+2018-09-16 01:49:47,562:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:47,563:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 45, 'op': 0, 'd': {'user': {'id': '429017695501942784'}, 'status': 'online', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': {'type': 0, 'timestamps': {'start': 1537055381380}, 'session_id': 'b7f8b32d8c30b79e2cac9c4721d81d88', 'name': 'Unturned', 'id': '828acfde558a267b', 'created_at': 1537055378411}, 'activities': [{'type': 0, 'timestamps': {'start': 1537055381380}, 'session_id': 'b7f8b32d8c30b79e2cac9c4721d81d88', 'name': 'Unturned', 'id': '828acfde558a267b', 'created_at': 1537055378411}]}}
+2018-09-16 01:49:47,563:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:47,563:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:49:51,382:DEBUG:discord.gateway: Keeping websocket alive with sequence 45
+2018-09-16 01:49:51,488:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:51,488:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:49:51,488:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:52,035:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:52,035:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 46, 'op': 0, 'd': {'user_id': '106423924614545408', 'timestamp': 1537055382, 'member': {'user': {'username': 'Miss Glazeee~', 'id': '106423924614545408', 'discriminator': '7724', 'avatar': '981bb2081df023b114fe5be833e99587'}, 'roles': ['480476163672899584', '481637861620187147'], 'nick': 'Queen Glazeee Toebean', 'mute': False, 'joined_at': '2018-08-15T18:48:34.497444+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:49:52,035:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:52,035:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:49:54,371:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:54,371:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 47, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-09-15T23:49:45.212000+00:00', 'pinned': False, 'nonce': '490670629150785536', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['480476163672899584', '481637861620187147'], 'nick': 'Queen Glazeee Toebean', 'mute': False, 'joined_at': '2018-08-15T18:48:34.497444+00:00', 'deaf': False}, 'id': '490670591414632468', 'embeds': [], 'edited_timestamp': None, 'content': "I don't think so", 'channel_id': '480476525087424512', 'author': {'username': 'Miss Glazeee~', 'id': '106423924614545408', 'discriminator': '7724', 'avatar': '981bb2081df023b114fe5be833e99587'}, 'attachments': [], 'guild_id': '473729350257082368'}}
+2018-09-16 01:49:54,371:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:54,372:DEBUG:discord.client: Dispatching event message
+2018-09-16 01:49:59,201:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:49:59,202:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 48, 'op': 0, 'd': {'user': {'username': 'ブラッキー', 'id': '209679464962064384', 'discriminator': '8366', 'avatar': '5156f3e070cee8ba1d69d10f7cdddb6c'}, 'status': 'dnd', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-16 01:49:59,202:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:49:59,202:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:50:22,825:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:50:22,826:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 49, 'op': 0, 'd': {'user': {'id': '429017695501942784'}, 'status': 'online', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': {'type': 0, 'timestamps': {'start': 1537055416950}, 'session_id': 'b7f8b32d8c30b79e2cac9c4721d81d88', 'name': 'Unturned', 'id': '828acfde558a267b', 'created_at': 1537055413672}, 'activities': [{'type': 0, 'timestamps': {'start': 1537055416950}, 'session_id': 'b7f8b32d8c30b79e2cac9c4721d81d88', 'name': 'Unturned', 'id': '828acfde558a267b', 'created_at': 1537055413672}]}}
+2018-09-16 01:50:22,826:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:50:22,826:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:50:32,633:DEBUG:discord.gateway: Keeping websocket alive with sequence 49
+2018-09-16 01:50:32,743:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:50:32,743:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:50:32,743:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:51:13,886:DEBUG:discord.gateway: Keeping websocket alive with sequence 49
+2018-09-16 01:51:13,993:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:51:13,993:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:51:13,993:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:51:30,240:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:51:30,240:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 50, 'op': 0, 'd': {'user_id': '341008844660670466', 'timestamp': 1537055481, 'member': {'user': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:51:30,241:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:51:30,241:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:51:37,179:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:51:37,180:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 51, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-09-15T23:51:27.971000+00:00', 'pinned': False, 'nonce': '490671015077085184', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'id': '490671022417379349', 'embeds': [], 'edited_timestamp': None, 'content': 'nvm i didnt see the guy in the car', 'channel_id': '480476525087424512', 'author': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'attachments': [], 'guild_id': '473729350257082368'}}
+2018-09-16 01:51:37,180:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:51:37,180:DEBUG:discord.client: Dispatching event message
+2018-09-16 01:51:39,332:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:51:39,332:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 52, 'op': 0, 'd': {'user_id': '341008844660670466', 'timestamp': 1537055490, 'member': {'user': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:51:39,332:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:51:39,332:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:51:47,432:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:51:47,432:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 53, 'op': 0, 'd': {'user_id': '341008844660670466', 'timestamp': 1537055498, 'member': {'user': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:51:47,432:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:51:47,432:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:51:53,800:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:51:53,800:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 54, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-09-15T23:51:44.643000+00:00', 'pinned': False, 'nonce': '490671083607818240', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'id': '490671092344815626', 'embeds': [], 'edited_timestamp': None, 'content': 'i say someone just appear and i got really confused', 'channel_id': '480476525087424512', 'author': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'attachments': [], 'guild_id': '473729350257082368'}}
+2018-09-16 01:51:53,801:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:51:53,801:DEBUG:discord.client: Dispatching event message
+2018-09-16 01:51:54,514:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:51:54,515:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 55, 'op': 0, 'd': {'user_id': '341008844660670466', 'timestamp': 1537055505, 'member': {'user': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:51:54,515:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:51:54,515:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:51:55,138:DEBUG:discord.gateway: Keeping websocket alive with sequence 55
+2018-09-16 01:51:55,244:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:51:55,245:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:51:55,245:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:52:04,003:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:52:04,003:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 56, 'op': 0, 'd': {'user_id': '341008844660670466', 'timestamp': 1537055514, 'member': {'user': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:52:04,004:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:52:04,004:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:52:11,597:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:52:11,597:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 57, 'op': 0, 'd': {'user_id': '341008844660670466', 'timestamp': 1537055522, 'member': {'user': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:52:11,597:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:52:11,597:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:52:14,189:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:52:14,189:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 58, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-09-15T23:52:04.997000+00:00', 'pinned': False, 'nonce': '490671165673570304', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'id': '490671177715417102', 'embeds': [], 'edited_timestamp': None, 'content': 'cause i tped to the place having a feast to witness what a feast was', 'channel_id': '480476525087424512', 'author': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'attachments': [], 'guild_id': '473729350257082368'}}
+2018-09-16 01:52:14,190:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:52:14,190:DEBUG:discord.client: Dispatching event message
+2018-09-16 01:52:36,389:DEBUG:discord.gateway: Keeping websocket alive with sequence 58
+2018-09-16 01:52:36,497:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:52:36,497:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:52:36,497:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:52:41,640:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:52:41,641:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 59, 'op': 0, 'd': {'user': {'id': '278552766480252928'}, 'status': 'online', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': {'type': 0, 'timestamps': {'start': 1537055552413}, 'session_id': 'a865f4a7a99ee1adf4b9107690dd8591', 'name': 'proton', 'id': 'd23bdd6afc8230f0', 'created_at': 1537055552478}, 'activities': [{'type': 0, 'timestamps': {'start': 1537055552413}, 'session_id': 'a865f4a7a99ee1adf4b9107690dd8591', 'name': 'proton', 'id': 'd23bdd6afc8230f0', 'created_at': 1537055552478}]}}
+2018-09-16 01:52:41,641:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:52:41,641:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:52:46,612:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:52:46,613:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 60, 'op': 0, 'd': {'user_id': '106423924614545408', 'timestamp': 1537055557, 'member': {'user': {'username': 'Miss Glazeee~', 'id': '106423924614545408', 'discriminator': '7724', 'avatar': '981bb2081df023b114fe5be833e99587'}, 'roles': ['480476163672899584', '481637861620187147'], 'nick': 'Queen Glazeee Toebean', 'mute': False, 'joined_at': '2018-08-15T18:48:34.497444+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:52:46,613:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:52:46,613:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:52:46,636:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:52:46,636:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 61, 'op': 0, 'd': {'user': {'id': '278552766480252928'}, 'status': 'online', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': {'type': 0, 'timestamps': {'start': 1537055557416}, 'session_id': 'a865f4a7a99ee1adf4b9107690dd8591', 'name': 'Fallout Shelter', 'id': 'b116a651d399083', 'created_at': 1537055557471}, 'activities': [{'type': 0, 'timestamps': {'start': 1537055557416}, 'session_id': 'a865f4a7a99ee1adf4b9107690dd8591', 'name': 'Fallout Shelter', 'id': 'b116a651d399083', 'created_at': 1537055557471}]}}
+2018-09-16 01:52:46,637:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:52:46,637:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:52:47,326:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:52:47,326:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 62, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-09-15T23:52:38.160000+00:00', 'pinned': False, 'nonce': '490671354564050944', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['480476163672899584', '481637861620187147'], 'nick': 'Queen Glazeee Toebean', 'mute': False, 'joined_at': '2018-08-15T18:48:34.497444+00:00', 'deaf': False}, 'id': '490671316811382804', 'embeds': [], 'edited_timestamp': None, 'content': 'XD', 'channel_id': '480476525087424512', 'author': {'username': 'Miss Glazeee~', 'id': '106423924614545408', 'discriminator': '7724', 'avatar': '981bb2081df023b114fe5be833e99587'}, 'attachments': [], 'guild_id': '473729350257082368'}}
+2018-09-16 01:52:47,327:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:52:47,328:DEBUG:discord.client: Dispatching event message
+2018-09-16 01:52:50,022:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:52:50,022:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 63, 'op': 0, 'd': {'user': {'username': 'captain Draco', 'id': '414111175270334465', 'discriminator': '7637', 'avatar': '4f33cea437b26fec77d5db852c188bb6'}, 'status': 'online', 'roles': ['480476163672899584'], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-16 01:52:50,023:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:52:50,023:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:53:17,641:DEBUG:discord.gateway: Keeping websocket alive with sequence 63
+2018-09-16 01:53:17,748:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:53:17,748:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:53:17,749:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:53:58,892:DEBUG:discord.gateway: Keeping websocket alive with sequence 63
+2018-09-16 01:53:59,000:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:53:59,000:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:53:59,001:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:54:02,232:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:54:02,233:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 64, 'op': 0, 'd': {'user': {'id': '340634982697533441'}, 'status': 'idle', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': {'type': 0, 'timestamps': {'start': 1537050958163}, 'session_id': 'c8a71fe49753dedfc9db6438a94402ae', 'name': 'Unturned', 'id': '908912af32bc36e1', 'created_at': 1537054590632}, 'activities': [{'type': 0, 'timestamps': {'start': 1537050958163}, 'session_id': 'c8a71fe49753dedfc9db6438a94402ae', 'name': 'Unturned', 'id': '908912af32bc36e1', 'created_at': 1537054590632}]}}
+2018-09-16 01:54:02,233:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:54:02,233:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:54:11,491:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:54:11,492:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 65, 'op': 0, 'd': {'user': {'id': '146484611860398080'}, 'status': 'online', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-16 01:54:11,492:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:54:11,492:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:54:40,144:DEBUG:discord.gateway: Keeping websocket alive with sequence 65
+2018-09-16 01:54:40,251:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:54:40,252:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:54:40,252:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:54:50,025:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:54:50,026:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 66, 'op': 0, 'd': {'user': {'id': '414111175270334465'}, 'status': 'offline', 'roles': ['480476163672899584'], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-16 01:54:50,026:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:54:50,026:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:55:21,395:DEBUG:discord.gateway: Keeping websocket alive with sequence 66
+2018-09-16 01:55:21,502:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:55:21,502:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:55:21,502:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:55:22,301:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:55:22,302:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 67, 'op': 0, 'd': {'user': {'username': 'captain Draco', 'id': '414111175270334465', 'discriminator': '7637', 'avatar': '4f33cea437b26fec77d5db852c188bb6'}, 'status': 'online', 'roles': ['480476163672899584'], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-16 01:55:22,302:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:55:22,302:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:56:01,395:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:56:01,395:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 68, 'op': 0, 'd': {'user': {'id': '209679464962064384'}, 'status': 'offline', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-16 01:56:01,395:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:56:01,396:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:56:02,647:DEBUG:discord.gateway: Keeping websocket alive with sequence 68
+2018-09-16 01:56:02,754:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:56:02,755:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:56:02,755:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:56:08,672:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:56:08,673:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 69, 'op': 0, 'd': {'user': {'username': 'ブラッキー', 'id': '209679464962064384', 'discriminator': '8366', 'avatar': '5156f3e070cee8ba1d69d10f7cdddb6c'}, 'status': 'dnd', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-16 01:56:08,673:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:56:08,673:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:56:43,899:DEBUG:discord.gateway: Keeping websocket alive with sequence 69
+2018-09-16 01:56:44,006:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:56:44,007:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:56:44,007:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:57:22,321:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:57:22,321:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 70, 'op': 0, 'd': {'user': {'id': '414111175270334465'}, 'status': 'offline', 'roles': ['480476163672899584'], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-16 01:57:22,321:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:57:22,322:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:57:25,150:DEBUG:discord.gateway: Keeping websocket alive with sequence 70
+2018-09-16 01:57:25,301:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:57:25,301:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:57:25,301:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:58:06,402:DEBUG:discord.gateway: Keeping websocket alive with sequence 70
+2018-09-16 01:58:06,509:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:58:06,509:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:58:06,509:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:58:08,644:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:58:08,644:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 71, 'op': 0, 'd': {'user': {'id': '209679464962064384'}, 'status': 'offline', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-16 01:58:08,644:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:58:08,644:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:58:16,265:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:58:16,265:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 72, 'op': 0, 'd': {'user': {'id': '254343278068105216'}, 'status': 'offline', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-16 01:58:16,266:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:58:16,266:DEBUG:discord.client: Dispatching event member_update
+2018-09-16 01:58:46,816:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:58:46,817:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 73, 'op': 0, 'd': {'user_id': '341008844660670466', 'timestamp': 1537055917, 'member': {'user': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:58:46,817:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:58:46,817:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:58:47,653:DEBUG:discord.gateway: Keeping websocket alive with sequence 73
+2018-09-16 01:58:47,760:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:58:47,760:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-16 01:58:47,760:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:58:56,620:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:58:56,621:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 74, 'op': 0, 'd': {'user_id': '341008844660670466', 'timestamp': 1537055927, 'member': {'user': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:58:56,621:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:58:56,621:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:58:58,913:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:58:58,913:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 75, 'op': 0, 'd': {'user_id': '138791951238430720', 'timestamp': 1537055929, 'member': {'user': {'username': 'Strawburst Kimura', 'id': '138791951238430720', 'discriminator': '8012', 'avatar': '502ecbcf17dcd44ace1853ea975ef57c'}, 'roles': ['480476163672899584', '481638079451365377'], 'nick': 'Queen Strawburst', 'mute': False, 'joined_at': '2018-07-31T05:51:18.584000+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:58:58,913:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:58:58,913:DEBUG:discord.client: Dispatching event typing
+2018-09-16 01:58:59,551:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:58:59,551:DEBUG:discord.gateway: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 76, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2018-09-15T23:58:50.364000+00:00', 'pinned': False, 'nonce': '490672878614740992', 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['480476163672899584', '481638079451365377'], 'nick': 'Queen Strawburst', 'mute': False, 'joined_at': '2018-07-31T05:51:18.584000+00:00', 'deaf': False}, 'id': '490672877948108820', 'embeds': [], 'edited_timestamp': None, 'content': 'tpa', 'channel_id': '480476525087424512', 'author': {'username': 'Strawburst Kimura', 'id': '138791951238430720', 'discriminator': '8012', 'avatar': '502ecbcf17dcd44ace1853ea975ef57c'}, 'attachments': [], 'guild_id': '473729350257082368'}}
+2018-09-16 01:58:59,551:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:58:59,551:DEBUG:discord.client: Dispatching event message
+2018-09-16 01:59:07,497:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-16 01:59:07,497:DEBUG:discord.gateway: WebSocket Event: {'t': 'TYPING_START', 's': 77, 'op': 0, 'd': {'user_id': '341008844660670466', 'timestamp': 1537055938, 'member': {'user': {'username': 'fux', 'id': '341008844660670466', 'discriminator': '0720', 'avatar': '035a1da995803e4fd659e881b4f70cb4'}, 'roles': ['480476163672899584'], 'nick': None, 'mute': False, 'joined_at': '2018-08-18T02:43:27.417645+00:00', 'deaf': False}, 'channel_id': '480476525087424512', 'guild_id': '473729350257082368'}}
+2018-09-16 01:59:07,498:DEBUG:discord.client: Dispatching event socket_response
+2018-09-16 01:59:07,498:DEBUG:discord.client: Dispatching event typing

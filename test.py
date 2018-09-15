@@ -5,10 +5,5 @@ conn = sqlite3.connect('./main.db')
 c = conn.cursor()
 
 result = ['**Open tickets:**']
-for row in c.execute('SELECT user FROM tickets WHERE open = 2'):
-    print(row)
-    result.append(row)
-    for row in c.execute('SELECT issue FROM tickets WHERE open = 2'):
-        print(row)
-        result.append(row)
-        print(result)
+result.append([row for row in c.execute('SELECT user, issue FROM tickets WHERE open = 1')])
+print('\n'.join(str(v) for v in result))
