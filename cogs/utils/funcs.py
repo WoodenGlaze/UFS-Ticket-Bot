@@ -18,14 +18,14 @@ def list_open(db_file):
         conn = sqlite3.connect(db_file)
         print(sqlite3.version)
         c = conn.cursor()
-        result = ['**Open tickets:**']
+        result_open = ['**Open tickets:**']
         for row in c.execute('SELECT user FROM tickets WHERE open = 1'):
             print(row)
-            result.append(row)
+            result_open.append(row)
             for row in c.execute('SELECT issue FROM tickets WHERE open = 1'):
                 print(row)
-                result.append(row)
-                return result
+                result_open.append(row)
+                return result_open
     except Error as e:
         print(e)
     finally:
@@ -36,14 +36,14 @@ def list_picked(db_file):
         conn = sqlite3.connect(db_file)
         print(sqlite3.version)
         c = conn.cursor()
-        result = ['**Open tickets:**']
+        result_picked = ['**Open tickets:**']
         for row in c.execute('SELECT user FROM tickets WHERE open = 2'):
             print(row)
-            result.append(row)
+            result_picked.append(row)
             for row in c.execute('SELECT issue FROM tickets WHERE open = 2'):
                 print(row)
-                result.append(row)
-                return result
+                result_picked.append(row)
+                return result_picked
     except Error as e:
         print(e)
     finally:
@@ -54,14 +54,14 @@ def list_closed(db_file):
         conn = sqlite3.connect(db_file)
         print(sqlite3.version)
         c = conn.cursor()
-        result = ['**Open tickets:**']
+        result_closed = ['**Open tickets:**']
         for row in c.execute('SELECT user FROM tickets WHERE open = 0'):
             print(row)
-            result.append(row)
+            result_closed.append(row)
             for row in c.execute('SELECT issue FROM tickets WHERE open = 0'):
                 print(row)
-                result.append(row)
-                return result
+                result_closed.append(row)
+                return result_closed
     except Error as e:
         print(e)
     finally:
