@@ -54,7 +54,7 @@ desc = """Basic bot to open support tickets for the Unturned server."""
 bot = Bot(command_prefix=commands.when_mentioned_or('ticket)', 'problem)'), shard_count=shards, description=desc)
 revisionlatest = os.popen(r'git log -n 1 --pretty=format:"%H"').read().strip()
 revisioncurrent = os.popen(r'git rev-parse --short HEAD').read().strip()
-bot.version = "master 0.0.2α"
+bot.version = "master 0.0.3α"
 bot.exts = initial_extensions
 bot.database = database
 gitversion = os.popen(r'git log --format=%B -n 1 HEAD').read().strip()
@@ -95,6 +95,7 @@ async def about():
 	result = ['**About Me:**']
 	result.append('- Author: Miss Glazeee~ [ID: 106423924614545408]')
 	result.append('- Library: discord.py (Python)')
+	result.append('- Version: {} (Actual "Bot" version: {})'.format(bot.version,gitversion))
 	result.append('- Latest Change: {}'.format(revision))
 	bot.actualuptime = datetime.now() - bot.uptime
 	result.append('- Uptime: {}'.format(bot.actualuptime))
