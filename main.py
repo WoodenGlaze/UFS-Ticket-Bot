@@ -56,11 +56,11 @@ if True == True:
 
 desc = """Basic bot to open support tickets for the Unturned server."""
 bot = Bot(command_prefix=commands.when_mentioned_or('ticket)', 'problem)'), shard_count=shards, description=desc)
-bot.uptime = datetime.now()
+
 bot.version = "master 0.1α"
-bot.realuptime = bot.uptime - datetime.now()
 bot.exts = initial_extensions
 bot.database = database
+
 gitversion = "WIP"
 
 
@@ -72,6 +72,7 @@ async def on_ready():
 	print(Fore.GREEN + 'Sharding: {}'.format(bot.shard_count))
 	logger.info('{0.name}, {0.id}'.format(bot.user))
 	bot.appinfo = await bot.application_info()
+	bot.uptime = datetime.now()
 	await bot.change_presence(game=discord.Game(name='Abuse of this bot is punishable by a ban from it.'), status=discord.Status.dnd)
 
 @bot.event
@@ -102,7 +103,8 @@ async def about():
 	result.append('- Author: Miss Glazeee~ [ID: 106423924614545408]')
 	result.append('- Library: discord.py (Python)')
 	result.append('- Latest Change: {}'.format(revision))
-	result.append('- Uptime: {}'.format(bot.realuptime))
+	bot.actualuptime = datetime.now() - bot.starttime
+	result.append('- Uptime: {}'.format(bot.actualuptime))
 	result.append('- Servers: {}'.format(len(bot.servers)))
 	#result.append('- Commands Run: {}'.format(sum(bot.commands_used.values())))
 	# statistics

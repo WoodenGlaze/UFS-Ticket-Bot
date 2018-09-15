@@ -93,3 +93,31 @@
 2018-09-15 23:52:58,316:DEBUG:discord.client: Dispatching event socket_raw_receive
 2018-09-15 23:52:58,316:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
 2018-09-15 23:52:58,317:DEBUG:discord.client: Dispatching event socket_response
+2018-09-15 23:53:39,460:DEBUG:discord.gateway: Keeping websocket alive with sequence 12
+2018-09-15 23:53:39,568:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-15 23:53:39,568:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-15 23:53:39,568:DEBUG:discord.client: Dispatching event socket_response
+2018-09-15 23:54:13,426:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-15 23:54:13,426:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 13, 'op': 0, 'd': {'user': {'id': '254343278068105216'}, 'status': 'offline', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-15 23:54:13,426:DEBUG:discord.client: Dispatching event socket_response
+2018-09-15 23:54:13,426:DEBUG:discord.client: Dispatching event member_update
+2018-09-15 23:54:20,711:DEBUG:discord.gateway: Keeping websocket alive with sequence 13
+2018-09-15 23:54:20,822:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-15 23:54:20,822:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-15 23:54:20,823:DEBUG:discord.client: Dispatching event socket_response
+2018-09-15 23:55:01,963:DEBUG:discord.gateway: Keeping websocket alive with sequence 13
+2018-09-15 23:55:02,071:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-15 23:55:02,071:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-15 23:55:02,071:DEBUG:discord.client: Dispatching event socket_response
+2018-09-15 23:55:43,214:DEBUG:discord.gateway: Keeping websocket alive with sequence 13
+2018-09-15 23:55:43,337:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-15 23:55:43,337:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-15 23:55:43,338:DEBUG:discord.client: Dispatching event socket_response
+2018-09-15 23:55:46,526:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-15 23:55:46,526:DEBUG:discord.gateway: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 14, 'op': 0, 'd': {'user': {'username': 'Addison', 'id': '254343278068105216', 'discriminator': '4514', 'avatar': '538f709424c07ca23da25ac3e5145b76'}, 'status': 'online', 'roles': [], 'nick': None, 'guild_id': '473729350257082368', 'game': None, 'activities': []}}
+2018-09-15 23:55:46,527:DEBUG:discord.client: Dispatching event socket_response
+2018-09-15 23:55:46,527:DEBUG:discord.client: Dispatching event member_update
+2018-09-15 23:56:24,467:DEBUG:discord.gateway: Keeping websocket alive with sequence 14
+2018-09-15 23:56:24,575:DEBUG:discord.client: Dispatching event socket_raw_receive
+2018-09-15 23:56:24,576:DEBUG:discord.gateway: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+2018-09-15 23:56:24,576:DEBUG:discord.client: Dispatching event socket_response
