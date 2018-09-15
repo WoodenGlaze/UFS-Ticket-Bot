@@ -39,46 +39,39 @@ logger.setLevel(logging.DEBUG)
 handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
 handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
 logger.addHandler(handler)
-
 def credload():
 	with open('config.json') as f:
 		return json.load(f)
-
 initial_extensions = [
 'cogs.administrative',
 'cogs.tickets']
-
 if True == True:
 	credentials = credload()
 	token = credentials['token']
 	botowner = credentials['botowner']
 	shards = credentials['shards']
-
 desc = """Basic bot to open support tickets for the Unturned server."""
 bot = Bot(command_prefix=commands.when_mentioned_or('ticket)', 'problem)'), shard_count=shards, description=desc)
-
+revisionlatest = os.popen(r'git rev-parse --short origin/master').read().strip()
+revisioncurrent = os.popen(r'git rev-parse --short HEAD').read().strip()
 bot.version = "master 0.1α"
 bot.exts = initial_extensions
 bot.database = database
-
 gitversion = "WIP"
-
-
 @bot.event
 async def on_ready():
 	print(Fore.GREEN + 'Logged in as: {0.name} [id: {0.id}]'.format(bot.user))
 	print(Fore.GREEN + 'Current version: {} Latest version: {}'.format(bot.version,gitversion))
+	print(Fore.GREEN + 'Current git version: {}, Latest version: {}'.format(revisioncurrent, revisionlatest))
 	print(Fore.GREEN + '_______')
 	print(Fore.GREEN + 'Sharding: {}'.format(bot.shard_count))
 	logger.info('{0.name}, {0.id}'.format(bot.user))
 	bot.appinfo = await bot.application_info()
 	bot.uptime = datetime.now()
 	await bot.change_presence(game=discord.Game(name='Abuse of this bot is punishable by a ban from it.'), status=discord.Status.dnd)
-
 @bot.event
 async def on_resumed():
 	print(Fore.RED + 'Connection lost at: {} [{}], resuming normal operations.'.format(datetime.now(), bot.realuptime))
-
 @bot.command(server=int)
 async def leave_server(hidden=True):
 	await bot.leave_server(discord.Server(id=server))
