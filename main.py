@@ -103,7 +103,7 @@ async def about():
 	result.append('- Author: Miss Glazeee~ [ID: 106423924614545408]')
 	result.append('- Library: discord.py (Python)')
 	result.append('- Latest Change: {}'.format(revision))
-	bot.actualuptime = datetime.now() - bot.starttime
+	bot.actualuptime = datetime.now() - bot.uptime
 	result.append('- Uptime: {}'.format(bot.actualuptime))
 	result.append('- Servers: {}'.format(len(bot.servers)))
 	#result.append('- Commands Run: {}'.format(sum(bot.commands_used.values())))
