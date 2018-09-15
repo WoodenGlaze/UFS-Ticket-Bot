@@ -52,16 +52,16 @@ if True == True:
 	shards = credentials['shards']
 desc = """Basic bot to open support tickets for the Unturned server."""
 bot = Bot(command_prefix=commands.when_mentioned_or('ticket)', 'problem)'), shard_count=shards, description=desc)
-revisionlatest = os.popen(r'git rev-parse --short origin/master').read().strip()
+revisionlatest = os.popen(r'git log -n 1 --pretty=format:"%H"').read().strip()
 revisioncurrent = os.popen(r'git rev-parse --short HEAD').read().strip()
-bot.version = "master 0.1α"
+bot.version = "master 0.0.2α"
 bot.exts = initial_extensions
 bot.database = database
-gitversion = "WIP"
+gitversion = os.popen(r'git log --format=%B -n 1 HEAD').read().strip()
 @bot.event
 async def on_ready():
 	print(Fore.GREEN + 'Logged in as: {0.name} [id: {0.id}]'.format(bot.user))
-	print(Fore.GREEN + 'Current version: {} Latest version: {}'.format(bot.version,gitversion))
+	print(Fore.GREEN + 'Current main.py version: {} Actual version: {}'.format(bot.version,gitversion))
 	print(Fore.GREEN + 'Current git version: {}, Latest version: {}'.format(revisioncurrent, revisionlatest))
 	print(Fore.GREEN + '_______')
 	print(Fore.GREEN + 'Sharding: {}'.format(bot.shard_count))
