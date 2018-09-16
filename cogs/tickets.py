@@ -7,7 +7,7 @@ class tickets():
         self.bot = bot
         self.database = bot.database
     @commands.command(pass_context=True)
-    async def tickets(self, arg=None):
+    async def tickets(self, arg):
         """Prints open tickets, nothing more nothing less."""
         if arg == None or "Open" or "open":
             result_open = funcs.list_open(self.database)
