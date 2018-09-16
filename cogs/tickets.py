@@ -12,15 +12,15 @@ class tickets():
         if arg == None or "Open" or "open":
             result_open = funcs.list_open(self.database)
             print(result_open)
-            await self.bot.say('\n'.join(str(v) for v in result))
+            await self.bot.say('\n'.join(str(v) for v in result_open))
         elif arg == "Closed" or "closed":
             result_closed = funcs.list_closed(self.database)
             print(result_closed)
-            await self.bot.say('\n'.join(str(v) for v in result))
+            await self.bot.say('\n'.join(str(v) for v in result_closed))
         elif arg == "Picked" or "picked":
             result_picked = funcs.list_picked(self.database)
             print(result_picked)
-            await self.bot.say('\n'.join(str(v) for v in result))
+            await self.bot.say('\n'.join(str(v) for v in result_picked))
     @commands.command(hidden=True)
     async def tickets_test(self):
         conn = sqlite3.connect(self.database)
