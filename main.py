@@ -9,12 +9,12 @@ from discord.ext import commands
 from discord.ext.commands import Bot
 from cogs.utils import funcs
 from datetime import datetime
-
+#defining database location for later use.
 database = "./main.db"
-
+#Checking if the OS is windows because windows CMD is a cuck and doesn't support the encoding out of the box.
 if os.name == 'nt':
 	init()
-
+#Checking for initial run, because you know, DB file is important
 if os.path.exists("init.json"):
 	def loadtest():
 		with open('init.json') as init:
@@ -30,26 +30,29 @@ else:
 	funcs.create_connection(database)
 	with open('init.json', 'w') as outfile:
 		json.dump(json_values, outfile)
-
+#checking to see if log exists and removes it on restart
 if os.path.exists("discord.log"):
 	os.remove("discord.log")
-
+#Setting up logger.
 logger = logging.getLogger('discord')
 logger.setLevel(logging.DEBUG)
 handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
 handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
 logger.addHandler(handler)
+#load the credentials from .json.
 def credload():
 	with open('config.json') as f:
 		return json.load(f)
 initial_extensions = [
 'cogs.administrative',
 'cogs.tickets']
+#If the program is running grab the credentials from json
 if True == True:
 	credentials = credload()
 	token = credentials['token']
 	botowner = credentials['botowner']
 	shards = credentials['shards']
+#OwO whats this.
 desc = """Basic bot to open support tickets for the Unturned server."""
 bot = Bot(command_prefix=commands.when_mentioned_or('ticket)', 'problem)'), shard_count=shards, description=desc)
 revisionlatest = os.popen(r'git log -n 1 --pretty=format:"%H"').read().strip()
@@ -115,17 +118,14 @@ async def about():
 	result.append('')
 	result.append('Unturned Furry Server: https://discord.gg/GsyRaZf')
 	await bot.say('\n'.join(result))
-
 @bot.event
 async def on_member_ban(member):
 	server = member.server
 	logger.info('{0.name}[id: {0.id}] got banned from {1.name}[{1.id}].'.format(member, server))
 	print(Fore.RED + '{0.name}[id: {0.id}] got banned from {1.name}[{1.id}].'.format(member, server))
-
 @bot.event
 async def on_server_join(server):
 	print(Fore.GREEN + 'Bot joined server: {0.name}[id: {0.id}]')
-
 if __name__ == '__main__':
 	for extension in initial_extensions:
 		try:
