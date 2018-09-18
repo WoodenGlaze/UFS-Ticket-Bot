@@ -9,7 +9,7 @@ class tickets():
     @commands.command(pass_context=True)
     async def tickets(self, arg: str =None):
         """Prints open tickets, nothing more nothing less."""
-        if != "closed":
+        if arg != "closed":
             result_open = funcs.list_open(self.database)
             print(result_open)
             await self.bot.say('\n'.join(str(v) for v in result_open))
