@@ -7,20 +7,20 @@ class tickets():
         self.bot = bot
         self.database = bot.database
     @commands.command(pass_context=True)
-    async def tickets(self, arg):
+    async def tickets(self, arg: str =None):
         """Prints open tickets, nothing more nothing less."""
-        if arg == None or "Open" or "open":
+        if != "closed":
             result_open = funcs.list_open(self.database)
             print(result_open)
             await self.bot.say('\n'.join(str(v) for v in result_open))
-        elif arg == "Closed" or "closed":
+            if arg == "Picked" or "picked":
+                result_picked = funcs.list_picked(self.database)
+                print(result_picked)
+                await self.bot.say('\n'.join(str(v) for v in result_picked))
+        else:
             result_closed = funcs.list_closed(self.database)
             print(result_closed)
             await self.bot.say('\n'.join(str(v) for v in result_closed))
-        elif arg == "Picked" or "picked":
-            result_picked = funcs.list_picked(self.database)
-            print(result_picked)
-            await self.bot.say('\n'.join(str(v) for v in result_picked))
     @commands.command(hidden=True)
     async def tickets_test(self):
         conn = sqlite3.connect(self.database)

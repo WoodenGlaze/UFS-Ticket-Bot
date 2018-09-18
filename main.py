@@ -27,9 +27,12 @@ else:
 	json_values = {
 		"initial-run": "1"
 	}
-	funcs.create_connection(database)
 	with open('init.json', 'w') as outfile:
 		json.dump(json_values, outfile)
+	if os.path.exists("main.db"):
+		print(Fore.GREEN + "Database exists but Init.json doesn't.")
+	else:
+		funcs.create_connection(database)
 #checking to see if log exists and removes it on restart
 if os.path.exists("discord.log"):
 	os.remove("discord.log")
